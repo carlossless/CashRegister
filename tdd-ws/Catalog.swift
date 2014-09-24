@@ -8,7 +8,11 @@
 
 import Cocoa
 
-class Catalog {
+protocol CatalogProtocol {
+    func productForBarcode(barcode : String?) -> Product?
+}
+
+class InMemoryCatalog : CatalogProtocol {
     
     private(set) var products : [Product]
     
@@ -17,7 +21,7 @@ class Catalog {
     }
     
     func productForBarcode(barcode : String?) -> Product? {
-        return self.products.filter({ p in p.barcode == barcode }).first;
+        return self.products.filter({$0.barcode == barcode}).first;
     }
     
 }

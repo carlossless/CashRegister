@@ -10,11 +10,11 @@ import Cocoa
 
 class CashRegister {
     
-    let lcdScreen : LCDScreen
-    let cart : Cart
-    let catalog : Catalog
+    let lcdScreen : OutputDeviceProtocol
+    let cart : CartProtocol
+    let catalog : CatalogProtocol
     
-    init(lcdScreen : LCDScreen, cart : Cart, catalog : Catalog) {
+    init(lcdScreen : OutputDeviceProtocol, cart : CartProtocol, catalog : CatalogProtocol) {
         self.lcdScreen = lcdScreen
         self.cart = cart
         self.catalog = catalog
@@ -36,8 +36,10 @@ class CashRegister {
         }
     }
     
-    func finishTransaction() -> Double {
-        return cart.computeSum()
+    func finishTransaction() {
+        let sum = cart.computeSum()
+        lcdScreen.displayPrice(sum)
+        cart.clearProducts()
     }
 
 }

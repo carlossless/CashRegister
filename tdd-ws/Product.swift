@@ -8,7 +8,7 @@
 
 import Cocoa
 
-class Product {
+class Product : Equatable {
     
     let price : Double
     let barcode : String
@@ -17,5 +17,9 @@ class Product {
         self.price = price
         self.barcode = barcode
     }
+    
+}
 
+func ==(lhs: Product, rhs: Product) -> Bool {
+    return (lhs.barcode == rhs.barcode) && (lhs.price == rhs.price)
 }

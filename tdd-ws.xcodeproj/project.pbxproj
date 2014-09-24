@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F961967819D2F48900628231 /* STDOUTScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F961967719D2F48900628231 /* STDOUTScreenTests.swift */; };
 		F981384C19D157E90000ABAE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981384B19D157E90000ABAE /* main.swift */; };
 		F981386019D158470000ABAE /* CashRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981385F19D158470000ABAE /* CashRegister.swift */; };
 		F981386219D158AB0000ABAE /* CashRegisterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981386119D158AB0000ABAE /* CashRegisterTests.swift */; };
 		F981386319D159010000ABAE /* CashRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981385F19D158470000ABAE /* CashRegister.swift */; };
-		F981386519D15BB30000ABAE /* LCDScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981386419D15BB30000ABAE /* LCDScreen.swift */; };
-		F981386619D15FD10000ABAE /* LCDScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981386419D15BB30000ABAE /* LCDScreen.swift */; };
+		F981386519D15BB30000ABAE /* OutputDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981386419D15BB30000ABAE /* OutputDevice.swift */; };
+		F981386619D15FD10000ABAE /* OutputDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981386419D15BB30000ABAE /* OutputDevice.swift */; };
 		F981386B19D199E90000ABAE /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981386A19D199E90000ABAE /* Cart.swift */; };
 		F981386D19D19B290000ABAE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981386C19D19B290000ABAE /* Product.swift */; };
 		F981386E19D19CF00000ABAE /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981386A19D199E90000ABAE /* Cart.swift */; };
 		F981386F19D19CFE0000ABAE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981386C19D19B290000ABAE /* Product.swift */; };
 		F981387119D19F690000ABAE /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981387019D19F690000ABAE /* Catalog.swift */; };
 		F981387219D19F690000ABAE /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F981387019D19F690000ABAE /* Catalog.swift */; };
+		F98DE25919D2C2950076CAEF /* OutputFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DE25819D2C2950076CAEF /* OutputFormater.swift */; };
+		F98DE25A19D2C3F50076CAEF /* OutputFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DE25819D2C2950076CAEF /* OutputFormater.swift */; };
+		F98DE26C19D2DB3E0076CAEF /* IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DE26B19D2DB3E0076CAEF /* IO.swift */; };
+		F98DE26D19D2DB3E0076CAEF /* IO.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DE26B19D2DB3E0076CAEF /* IO.swift */; };
+		F98DE26F19D2DD4E0076CAEF /* InMemoryCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DE26E19D2DD4E0076CAEF /* InMemoryCatalogTests.swift */; };
+		F98DE27119D2E09F0076CAEF /* LCDScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DE27019D2E09F0076CAEF /* LCDScreenTests.swift */; };
+		F98DE27319D2E30E0076CAEF /* CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DE27219D2E30E0076CAEF /* CartTests.swift */; };
+		F98DE27819D2E4700076CAEF /* EnglishOutputFormaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98DE27719D2E4700076CAEF /* EnglishOutputFormaterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,16 +43,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F961967719D2F48900628231 /* STDOUTScreenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STDOUTScreenTests.swift; sourceTree = "<group>"; };
 		F981384819D157E90000ABAE /* tdd-ws */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tdd-ws"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F981384B19D157E90000ABAE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F981385619D1581C0000ABAE /* tdd-ws-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tdd-ws-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F981385919D1581C0000ABAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F981385F19D158470000ABAE /* CashRegister.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashRegister.swift; sourceTree = "<group>"; };
 		F981386119D158AB0000ABAE /* CashRegisterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashRegisterTests.swift; sourceTree = "<group>"; };
-		F981386419D15BB30000ABAE /* LCDScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDScreen.swift; sourceTree = "<group>"; };
+		F981386419D15BB30000ABAE /* OutputDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputDevice.swift; sourceTree = "<group>"; };
 		F981386A19D199E90000ABAE /* Cart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
 		F981386C19D19B290000ABAE /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		F981387019D19F690000ABAE /* Catalog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		F98DE25819D2C2950076CAEF /* OutputFormater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutputFormater.swift; sourceTree = "<group>"; };
+		F98DE26B19D2DB3E0076CAEF /* IO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IO.swift; sourceTree = "<group>"; };
+		F98DE26E19D2DD4E0076CAEF /* InMemoryCatalogTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryCatalogTests.swift; sourceTree = "<group>"; };
+		F98DE27019D2E09F0076CAEF /* LCDScreenTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDScreenTests.swift; sourceTree = "<group>"; };
+		F98DE27219D2E30E0076CAEF /* CartTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartTests.swift; sourceTree = "<group>"; };
+		F98DE27719D2E4700076CAEF /* EnglishOutputFormaterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishOutputFormaterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +101,11 @@
 		F981384A19D157E90000ABAE /* tdd-ws */ = {
 			isa = PBXGroup;
 			children = (
+				F98DE26A19D2DB000076CAEF /* TheresNoSTDlibInSwift */,
+				F98DE26919D2DAEE0076CAEF /* Controller */,
+				F98DE26819D2DAD80076CAEF /* Model */,
+				F98DE26719D2DAC70076CAEF /* View */,
 				F981384B19D157E90000ABAE /* main.swift */,
-				F981386A19D199E90000ABAE /* Cart.swift */,
-				F981386C19D19B290000ABAE /* Product.swift */,
-				F981385F19D158470000ABAE /* CashRegister.swift */,
-				F981387019D19F690000ABAE /* Catalog.swift */,
-				F981386419D15BB30000ABAE /* LCDScreen.swift */,
 			);
 			path = "tdd-ws";
 			sourceTree = "<group>";
@@ -98,7 +113,9 @@
 		F981385719D1581C0000ABAE /* tdd-ws-tests */ = {
 			isa = PBXGroup;
 			children = (
-				F981386119D158AB0000ABAE /* CashRegisterTests.swift */,
+				F98DE27419D2E3BB0076CAEF /* Controller */,
+				F98DE27519D2E3C30076CAEF /* Model */,
+				F98DE27619D2E3CF0076CAEF /* View */,
 				F981385819D1581C0000ABAE /* Supporting Files */,
 			);
 			path = "tdd-ws-tests";
@@ -110,6 +127,68 @@
 				F981385919D1581C0000ABAE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F98DE26719D2DAC70076CAEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F981386419D15BB30000ABAE /* OutputDevice.swift */,
+				F98DE25819D2C2950076CAEF /* OutputFormater.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F98DE26819D2DAD80076CAEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F981386A19D199E90000ABAE /* Cart.swift */,
+				F981386C19D19B290000ABAE /* Product.swift */,
+				F981387019D19F690000ABAE /* Catalog.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F98DE26919D2DAEE0076CAEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F981385F19D158470000ABAE /* CashRegister.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F98DE26A19D2DB000076CAEF /* TheresNoSTDlibInSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F98DE26B19D2DB3E0076CAEF /* IO.swift */,
+			);
+			name = TheresNoSTDlibInSwift;
+			sourceTree = "<group>";
+		};
+		F98DE27419D2E3BB0076CAEF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F981386119D158AB0000ABAE /* CashRegisterTests.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F98DE27519D2E3C30076CAEF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F98DE26E19D2DD4E0076CAEF /* InMemoryCatalogTests.swift */,
+				F98DE27219D2E30E0076CAEF /* CartTests.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F98DE27619D2E3CF0076CAEF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F98DE27019D2E09F0076CAEF /* LCDScreenTests.swift */,
+				F961967719D2F48900628231 /* STDOUTScreenTests.swift */,
+				F98DE27719D2E4700076CAEF /* EnglishOutputFormaterTests.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,11 +279,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F981384C19D157E90000ABAE /* main.swift in Sources */,
-				F981386519D15BB30000ABAE /* LCDScreen.swift in Sources */,
+				F981386519D15BB30000ABAE /* OutputDevice.swift in Sources */,
 				F981386B19D199E90000ABAE /* Cart.swift in Sources */,
+				F98DE25919D2C2950076CAEF /* OutputFormater.swift in Sources */,
 				F981387119D19F690000ABAE /* Catalog.swift in Sources */,
 				F981386019D158470000ABAE /* CashRegister.swift in Sources */,
 				F981386D19D19B290000ABAE /* Product.swift in Sources */,
+				F98DE26C19D2DB3E0076CAEF /* IO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,11 +294,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F981386219D158AB0000ABAE /* CashRegisterTests.swift in Sources */,
-				F981386619D15FD10000ABAE /* LCDScreen.swift in Sources */,
+				F981386619D15FD10000ABAE /* OutputDevice.swift in Sources */,
+				F98DE26F19D2DD4E0076CAEF /* InMemoryCatalogTests.swift in Sources */,
+				F961967819D2F48900628231 /* STDOUTScreenTests.swift in Sources */,
 				F981386E19D19CF00000ABAE /* Cart.swift in Sources */,
+				F98DE25A19D2C3F50076CAEF /* OutputFormater.swift in Sources */,
 				F981387219D19F690000ABAE /* Catalog.swift in Sources */,
+				F98DE27819D2E4700076CAEF /* EnglishOutputFormaterTests.swift in Sources */,
 				F981386319D159010000ABAE /* CashRegister.swift in Sources */,
 				F981386F19D19CFE0000ABAE /* Product.swift in Sources */,
+				F98DE26D19D2DB3E0076CAEF /* IO.swift in Sources */,
+				F98DE27119D2E09F0076CAEF /* LCDScreenTests.swift in Sources */,
+				F98DE27319D2E30E0076CAEF /* CartTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,13 +390,18 @@
 		F981385019D157E90000ABAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F981385119D157E90000ABAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -316,6 +409,7 @@
 		F981385D19D1581C0000ABAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -328,12 +422,15 @@
 				INFOPLIST_FILE = "tdd-ws-tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F981385E19D1581C0000ABAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -342,6 +439,7 @@
 				INFOPLIST_FILE = "tdd-ws-tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
 			name = Release;
 		};
@@ -364,6 +462,7 @@
 				F981385119D157E90000ABAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F981385C19D1581C0000ABAE /* Build configuration list for PBXNativeTarget "tdd-ws-tests" */ = {
 			isa = XCConfigurationList;
@@ -372,6 +471,7 @@
 				F981385E19D1581C0000ABAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

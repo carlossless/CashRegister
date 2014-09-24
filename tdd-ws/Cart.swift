@@ -8,7 +8,13 @@
 
 import Cocoa
 
-class Cart {
+protocol CartProtocol {
+    func addProduct(product : Product)
+    func clearProducts()
+    func computeSum() -> Double
+}
+
+class Cart : CartProtocol {
     private var products : [Product]
     
     init() {
